@@ -85,7 +85,7 @@ After training, the model can be evaluated on the validation set. Evaluation inv
 ### Model Deployment
 You can deploy the trained model to Hugging Face Hub for easy sharing and further use:
 ```
-repo_name = "your-username/donut-docvqa"
+repo_name = "your-username/donut-docvqa" # change with your repository
 
 model_module.processor.push_to_hub(repo_name)
 model_module.model.push_to_hub(repo_name)
